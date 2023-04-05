@@ -121,7 +121,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .hero .hero-section {
@@ -157,6 +156,7 @@ header {
 .hero .btn-arrow {
     display: flex;
     align-items: center;
+    margin-top: 30px;
 }
 
 .hero .btn-arrow a {
@@ -174,4 +174,58 @@ header {
     border: 10px solid rgba(0, 0, 0, 0.13);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 100px 100px 100px 240px;
+    z-index: 2;
+    right: 0;
+}
+
+
+.vector-1 {
+    
+}
+
+.hero-contact {
+    margin-top: 40px;
+    display: flex;
+    border-radius: 999px;
+    height: 80px;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    padding: 10px 0;
+}
+
+.hero-contact .contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid #C0B7E854;
+    /* border-width: 60px; */
+    padding: 0 34px;
+}
+
+.hero-contact .contact-section:first-child {
+    border-left: none;
+}
+
+.hero-contact-img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero-contact .contact-info {
+    margin-left: 10px;
+}   
+
+.hero-contact .method {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.hero-contact .desc {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #FFFFFF;
 }
